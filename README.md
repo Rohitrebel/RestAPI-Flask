@@ -1,10 +1,10 @@
-# 🧾 REST API with Flask
+# REST API with Flask
 
 This project is a simple REST API built using **Flask**, designed to perform CRUD (Create, Read, Update, Delete) operations on in-memory person data. It is intended for learning purposes and API testing using tools like **Postman**.
 
 ---
 
-## 🚀 Features
+## Features
 
 - Add a new person using `POST`
 - View all person records using `GET`
@@ -17,7 +17,7 @@ This project is a simple REST API built using **Flask**, designed to perform CRU
 
 ---
 
-## 📌 API Endpoints
+## API Endpoints
 
 | Method | Route                    | Description                             |
 | ------ | ------------------------ | --------------------------------------- |
@@ -32,7 +32,7 @@ This project is a simple REST API built using **Flask**, designed to perform CRU
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 Make sure you have **Python 3.7+** and **Flask** installed.
 
@@ -44,7 +44,7 @@ pip install Flask
 
 ---
 
-## 💻 How to Run
+## How to Run
 
 1. Clone the repository or copy the code into a folder.
 
@@ -59,7 +59,7 @@ python app.py
 
 ---
 
-## 📬 Example JSON for Testing
+## Example JSON for Testing
 
 ```json
 {
@@ -71,7 +71,7 @@ python app.py
 
 ---
 
-## 🧪 Testing with Postman
+## Testing with Postman
 
 You can import these requests into Postman and test the API easily:
 
@@ -105,16 +105,16 @@ You can import these requests into Postman and test the API easily:
 
 ![Put](https://res.cloudinary.com/ddrbrwcvz/image/upload/v1754662544/Screenshot_3248_goe6at.png)
 
-#### Delete all Data with DELETE
+#### DELETE data
 
 ![Delete](https://res.cloudinary.com/ddrbrwcvz/image/upload/v1754662545/Screenshot_3249_b2nwog.png)
 
-#### DELETE specific data using DELETE
+#### Remove specific data using DELETE
 
 ![Delete](https://res.cloudinary.com/ddrbrwcvz/image/upload/v1754662544/Screenshot_3252_bcfsjg.png)
 
 ---
 
-## 📎 Notes
+## Notes
 
 - This API **does not use a database**, so data resets every time the server restarts.
